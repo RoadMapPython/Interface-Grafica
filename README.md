@@ -195,7 +195,7 @@ tela.mainloop()
 
 
   
-Auto : Emanoel Faria ( GitHub : @ Whoefa)
+Autor : Emanoel Faria ( GitHub : @ Whoefa)
 
 
 
