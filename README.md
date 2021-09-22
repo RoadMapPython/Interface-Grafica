@@ -1,4 +1,4 @@
-# Interface-Grafica#
+# Interface-Grafica #
 
 //Interface Gráfica utilizando Tkinter para a construção do jogo Pedra, Papel e Tesoura
 
@@ -326,5 +326,15 @@ tela.mainloop()
 
 
   
+Auto : Emanoel Faria ( GitHub : @ Whoefa)
 
+
+
+
+
+Referências :
+
+Codemy : https://www.youtube.com/watch?v=YXPyB4XeYLA
+
+DCC UFRJ : https://www.dcc.ufrj.br/~fabiom/mab225/14gui.pdf
          
