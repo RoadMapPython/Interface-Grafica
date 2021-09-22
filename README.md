@@ -123,26 +123,38 @@ Um botão com a foto de uma pedra, um para papel e para tesoura.
 
 
 //Obter foto e redimensionar
+
+
 photo1 = PhotoImage (file='pedra.png')
 photoimage = photo1.subsample(3, 3) 
 
 //Botao feito com a imagem
+
+
 botao=Button(tela, image=photo1,command=Pedra)
 botao.place(x=100,y=100)
 
 //Obter foto e redimensionar
+
+
 photo = PhotoImage (file='papel.png')
 photoimage = photo1.subsample(10, 5) 
 
 //Botao feito com a imagem
+
+
 botao1=Button(tela,image=photo,command=Papel)
 botao1.place(x=300,y=100)
 
 //Obter foto e redimensionar
+
+
 photo2 = PhotoImage (file='tesoura.png')
 photoimage = photo1.subsample(1,1 ) 
 
 //Botao feito com a imagem
+
+
 botao2=Button(tela,image=photo2, text='Tesoura',command=Tesoura)
 botao2.place(x=500,y=100)
 
@@ -153,6 +165,8 @@ Precisamos agora de um título para a aplicação, e algumas mensagens para sere
 
 
 //Titulo no topo da janela do Tkinter
+
+
 Titulo=Label(tela,text=" Pedra , Papel e Tesoura",anchor=W).place(x=280,y=10,width=150,height=20)
 
 //Mensagem na tela (Vitoria,Derrota e Empate)
@@ -168,10 +182,14 @@ Empate=Label(tela,text="",foreground="Gray")
 Empate.place(x=300,y=250)
 
 //Jogada do Player
+
+
 jogadajogador=Label(tela,text="")
 jogadajogador.place(x=300,y=300)
 
 //Jogada da CPU
+
+
 jogadamaquina=Label(tela,text="")
 jogadamaquina.place(x=300,y=350)
          
