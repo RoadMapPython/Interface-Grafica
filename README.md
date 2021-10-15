@@ -1,7 +1,8 @@
 # Interface-Gráfica #
 
 //Interface Gráfica utilizando Tkinter para a construção do jogo Pedra, Papel e Tesoura
-//Vídeo aula no YouTube: https://youtu.be/1LpHxmqU4AE
+
+## Vídeo aula no YouTube: https://youtu.be/1LpHxmqU4AE
 
 
 Faala Dev!!!
